@@ -1,1 +1,91 @@
-var _0x53180c=_0x515e;(function(_0x1ac05d,_0x12e6e6){var _0x93da4c=_0x515e,_0x34c0b0=_0x1ac05d();while(!![]){try{var _0x422997=parseInt(_0x93da4c(0x121))/0x1+parseInt(_0x93da4c(0x124))/0x2+-parseInt(_0x93da4c(0x123))/0x3*(parseInt(_0x93da4c(0x11c))/0x4)+-parseInt(_0x93da4c(0x128))/0x5*(-parseInt(_0x93da4c(0x129))/0x6)+parseInt(_0x93da4c(0x118))/0x7+parseInt(_0x93da4c(0x122))/0x8*(parseInt(_0x93da4c(0x114))/0x9)+-parseInt(_0x93da4c(0x12e))/0xa*(parseInt(_0x93da4c(0x115))/0xb);if(_0x422997===_0x12e6e6)break;else _0x34c0b0['push'](_0x34c0b0['shift']());}catch(_0x102a8b){_0x34c0b0['push'](_0x34c0b0['shift']());}}}(_0x1330,0xef3ce));var __Text_config={'title':_0x53180c(0x117)},__Id_config={'container':_0x53180c(0x134),'modal':_0x53180c(0x112),'title':_0x53180c(0x10d),'submit':_0x53180c(0x110),'charToEdit':'char-isc','form':{'masculino':_0x53180c(0x120),'feminino':_0x53180c(0x116),'nao_binario':_0x53180c(0x10e)}};function _0x515e(_0x5d20bc,_0x458576){var _0x133036=_0x1330();return _0x515e=function(_0x515ea,_0x54e48a){_0x515ea=_0x515ea-0x10d;var _0x5186f9=_0x133036[_0x515ea];return _0x5186f9;},_0x515e(_0x5d20bc,_0x458576);}function getById(_0x389ac5){var _0xa870dc=_0x53180c;return document[_0xa870dc(0x12f)](_0x389ac5);}function register(_0x370951){var _0x1f61ff=_0x53180c;localStorage[_0x1f61ff(0x11a)]('gender',_0x370951);}function gender(){var _0x26bd2b=_0x53180c;return localStorage[_0x26bd2b(0x133)]('gender')?localStorage[_0x26bd2b(0x133)](_0x26bd2b(0x12a)):null;}function setup(){var _0x57ab11=_0x53180c;const _0x111c2c=getById(__Id_config['title']);_0x111c2c[_0x57ab11(0x113)]=__Text_config[_0x57ab11(0x131)];const _0x562786=getById(__Id_config[_0x57ab11(0x130)]);var _0x24e344=getById(__Id_config[_0x57ab11(0x10f)]['masculino']),_0x986139=getById(__Id_config[_0x57ab11(0x10f)][_0x57ab11(0x126)]),_0x2920c2=getById(__Id_config[_0x57ab11(0x10f)][_0x57ab11(0x125)]);if(gender()=='m')_0x562786[_0x57ab11(0x113)]='o';else{if(gender()=='f')_0x562786[_0x57ab11(0x113)]='a';else{if(gender()=='nb')try{_0x562786['innerText']=localStorage[_0x57ab11(0x133)]('p');}catch{console[_0x57ab11(0x11f)](_0x57ab11(0x12b));}}}gender()==null?getById(__Id_config[_0x57ab11(0x11b)])['addEventListener'](_0x57ab11(0x111),()=>{var _0x3f4db9=_0x57ab11;if(gender()!='m'&&gender()!='f'&&gender()!='nb'){if(_0x24e344&&_0x986139&&_0x2920c2&&(_0x24e344[_0x3f4db9(0x11d)]||_0x986139[_0x3f4db9(0x11d)]||_0x2920c2[_0x3f4db9(0x11d)])){if(_0x24e344['checked'])register('m'),_0x562786[_0x3f4db9(0x113)]='o';else{if(_0x986139[_0x3f4db9(0x11d)])register('f'),_0x562786['innerText']='a';else{register('nb'),localStorage[_0x3f4db9(0x11a)]('p',prompt(_0x3f4db9(0x12d))[_0x3f4db9(0x132)](0x0,0x1));try{_0x562786['innerText']=localStorage[_0x3f4db9(0x133)]('p');}catch{console[_0x3f4db9(0x11f)]('charToEdit\x20não\x20está\x20sendo\x20usado\x20ou\x20não\x20foi\x20definido\x20corretamente.');}}}getById(__Id_config[_0x3f4db9(0x119)])[_0x3f4db9(0x127)][_0x3f4db9(0x12c)]=_0x3f4db9(0x11e);}}}):getById(__Id_config['container'])[_0x57ab11(0x127)][_0x57ab11(0x12c)]=_0x57ab11(0x11e);}function _0x1330(){var _0x2a174d=['981CTYuhs','11363aeLLrB','f-isc','Com\x20qual\x20gênero\x20você\x20se\x20identifica?','760130yPnkYc','container','setItem','submit','43140VZfMDu','checked','none','log','m-isc','592962LiXyRH','77144YXuHee','132HTvWNZ','3873148vzoFNn','nao_binario','feminino','style','345lljwVk','51258QdolCg','gender','charToEdit\x20não\x20está\x20sendo\x20usado\x20ou\x20não\x20foi\x20definido\x20corretamente.','display','Digite\x20o\x20pronome\x20que\x20você\x20quer\x20ser\x20chamado\x20(exemplo:\x20a,\x20o,\x20x,\x20*,\x20e)','27340hMlydc','getElementById','charToEdit','title','substring','getItem','container-isc','default-modal-text','nb-isc','form','submit-isc','click','modal-isc','innerText'];_0x1330=function(){return _0x2a174d;};return _0x1330();}setup();
+var __Text_config = {
+  title: 'Com qual gênero você se identifica?'
+}
+
+var __Id_config = {
+  container: 'container-isc',
+  modal: 'modal-isc',
+  title: 'default-modal-text',
+  submit: 'submit-isc',
+  charToEdit: 'char-isc',
+  form: {
+    masculino: 'm-isc',
+    feminino: 'f-isc',
+    nao_binario: 'nb-isc'
+  }
+}
+
+function getById(id){
+  return document.getElementById(id);
+}
+
+function register(gender){
+  localStorage.setItem('gender', gender);
+}
+
+function gender(){
+  if (localStorage.getItem('gender')){
+    return localStorage.getItem('gender');
+  }
+  else {
+    return null;
+  }
+}
+
+function setup(){
+  const _Default_title = getById(__Id_config.title);
+  _Default_title.innerText = __Text_config.title;
+
+  const charToEdit = getById(__Id_config.charToEdit);
+
+  var masculino = getById(__Id_config.form.masculino)
+  var feminino = getById(__Id_config.form.feminino)
+  var nao_binario = getById(__Id_config.form.nao_binario)
+  
+  if (gender() == 'm'){
+    charToEdit.innerText = "o";
+  }
+  else if (gender() == 'f'){
+    charToEdit.innerText = "a";
+  }
+  else if (gender() == 'nb'){
+    try{
+      charToEdit.innerText = localStorage.getItem('p');
+    }
+    catch{
+      console.log('charToEdit não está sendo usado ou não foi definido corretamente.')
+    }
+  }
+
+  if (gender() == null){
+      getById(__Id_config.submit).addEventListener('click', () => {
+        if (gender() != 'm' && gender() != 'f' && gender() != 'nb'){
+          if ((masculino && feminino && nao_binario) && (masculino.checked || feminino.checked || nao_binario.checked)){
+            if (masculino.checked){
+              register('m');
+              charToEdit.innerText = 'o';
+            }
+            else if (feminino.checked){
+              register('f');
+              charToEdit.innerText = 'a';
+            }
+            else{
+              register('nb');
+              localStorage.setItem('p', prompt('Digite o pronome que você quer ser chamado (exemplo: a, o, x, *, e)').substring(0,1));
+              try{
+                charToEdit.innerText = localStorage.getItem('p');
+              }
+              catch{
+                console.log('charToEdit não está sendo usado ou não foi definido corretamente.')
+              }
+            }
+            
+            getById(__Id_config.container).style.display = 'none';
+          }
+        }
+      })
+  }
+  else {
+    getById(__Id_config.container).style.display = 'none';
+  }
+}
